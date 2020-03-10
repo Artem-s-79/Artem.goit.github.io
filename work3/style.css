@@ -41,7 +41,7 @@ body {
     color: #b4ad9e;
 }
 
-#wrapper{
+.wrapper{
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -60,7 +60,7 @@ ul, ol {
     margin: 0;
 } 
 
-#header {
+.header {
     padding: 74px 0;
 }
 
@@ -119,8 +119,7 @@ ul, ol {
     margin: 20px 10px 70px;
 }
 
-.load-more .button {
-    border: 1px solid #626262;
+.button {
     margin: 0px 0px;
     padding: 10px 15px;
     font-size: 20px;
