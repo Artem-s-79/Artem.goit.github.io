@@ -13,20 +13,19 @@ a {
 }
 
 .body {
-    font-family: "playfair-display";
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
     line-height: 1.72;
     color: #626262;
 }
 
 .category-link {
-    font-family: "ubuntu";
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     line-height: 1.72;
     text-transform: uppercase;
     color: #b4ad9e;
 }
-*/
 
 .wrapper{
     position: relative;
