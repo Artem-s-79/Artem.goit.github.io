@@ -12,21 +12,7 @@ a {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: "playfair-display";
-    src: url(fonts/playfairdisplay-regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "ubuntu";
-    src: url(fonts/ubuntu-light.ttf) format("truetype");
-    font-weight: 300;
-    font-style: normal;
-}
-
-body {
+.body {
     font-family: "playfair-display";
     font-size: 14px;
     line-height: 1.72;
@@ -40,6 +26,7 @@ body {
     text-transform: uppercase;
     color: #b4ad9e;
 }
+*/
 
 .wrapper{
     position: relative;
@@ -73,6 +60,7 @@ ul, ol {
 .nav-item {
     display: inline-block;
     vertical-align: middle;
+    text-transform: uppercase;
 }
 
 .nav-item + .nav-item{
