@@ -11,9 +11,10 @@
 }
 
 .container{    
-    padding:5px 245px;
+    padding:0 15px;
     margin: 0 auto;
     overflow: hidden;
+    width: 1120px;
 }
 
 .logo{
@@ -82,7 +83,6 @@
  }
 
 .image {
-    width: 1600px;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,13 +111,11 @@
     left: 40%; 
     margin: auto;
     transform: translate(-400%); 
-    background-color: #1abc9c;
+    background-color: rgb(78,156,138);
     border: none;
     height: 105px;
     opacity: 0.5;
     width: 105px;
-    font-size: 100px;
-    color:white; 
 }
 
 .right {
@@ -125,9 +123,11 @@
     transform: translate(500%);
 }
 
-.right:hover
+.button:hover,
+.right:hover,
 .left:hover {
     opacity: 1;
+    background-color: rgb(26,188,156);
 }
 
 .but {
@@ -139,13 +139,6 @@
 .tours {
     position: relative;
     z-index: 1;
-    width: 100%;
-    display: table;
-}
-
-.slider {
-    margin: 0 auto;
-    height: auto;
 }
 
 .slide h2 {
@@ -170,11 +163,11 @@
 }
 
 .select-tour {
-    width: 1170px;
+    width: 1120px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-48%, -50%);
     height: 20%;
 }
 
@@ -206,7 +199,8 @@
 
 .card-list{
     overflow: hidden;
-    margin: 0 -15px 100px;
+    margin: 0 -15px;
+    padding-bottom: 100px;
 }
 
 .card{
@@ -215,6 +209,7 @@
     margin-bottom: 30px;
     width: 25%;
 }
+
 
 .card a{
     text-decoration: none;
