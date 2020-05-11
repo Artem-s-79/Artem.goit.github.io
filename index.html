@@ -3,86 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework9</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header-row">
-                    <div class="logo">
-                        <a href="#">URLAUBSGLÜCK</a>
-                    </div>
-                    <div class="user-box">
-                        <ul class="user-list">
-                            <li class="user-item">
-                                <button class="user-button">Log in</button>
-                            </li>
-                            <li class="user-item">
-                                <button class="user-button">Sign up</button>
-                            </li>
-                        </ul>
+                    <div class="col-12 col-md-12 col-xl-12 d-flex align-items-center justify-content-md-between flex-column-reverse flex-md-row">
+                        <div class="logo">
+                            <a class="logo" href="#">URLAUBSGLÜCK</a>
+                        </div>
+                        <div class="user-box">
+                            <ul class="user-list">
+                                <li class="user-item">
+                                    <button class="user-button">Log in</button>
+                                </li>
+                                <li class="user-item">
+                                    <button class="user-button">Sign up</button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <main>
-           <section class="banner">
-               <div class="container-banner">
-                   <div class="holiday">
-                       <h2 class="title1">Share your</h2>
-                       <h2 class="title2">Holiday dreams</h2>
-                       <p class="holiday-text">And find the perfect partner<br>to fullfill it</p>
-                       <a href="#" class="holiday-link">Find your holiday partner</a>
-                   </div>
-               </div>
-           </section>
-           <section class="section">
-               <div class="container-section">
-                   <h3 class="title-photo">Meet a partner for your<br>best holiday</h3>
-                   <div class="container-partner">
-                       <div class="partner">
-                            <ul class="photo">
-                                <li class="photo-li">
-                                    <div class="photo-container n1">
-                                        <img src="images/photo1.png" alt="" class="img-photo">
-                                    </div>
-                                    <h4 class="photo-name">Bradly Hunter</h4>
-                                    <p class="photo-info">Based in Chicago. I love playing tennis and loud music.</p>
-                                </li>
-                                <li class="photo-li">
-                                    <div class="photo-container n2">
-                                        <img src="images/photo2.png" alt="" class="img-photo">
-                                    </div>
-                                    <h4 class="photo-name">Lucas Marsha</h4>
-                                    <p class="photo-info">I get my inspiration from nature and objects around me
-                                        . I have a passion to colours, typography and skateboards</p>
-                                </li>
-                                <li class="photo-li">
-                                    <div class="photo-container n3">
-                                        <img src="images/photo3.png" alt="" class="img-photo">
-                                    </div>
-                                    <h4 class="photo-name">Heather Walker</h4>
-                                    <p class="photo-info">Im a happy person that loves cats and climbing on mountains.</p>
-                                </li>
-                                <li class="photo-li">
-                                    <div class="photo-container n4">
-                                        <img src="images/photo4.png" alt="" class="img-photo">
-                                    </div>
-                                    <h4 class="photo-name">Bradly Hunter</h4>
-                                    <p class="photo-info">Based in Chicago. I love playing tennis and loud music.</p>
-                                </li>
-                            </ul>
-                            <button class="other-partners">See other partners</button>
-                       </div>
-                   </div>
-               </div>
-           </section>
+        <main class="main">
+            <section class="banner">
+                <div class="container-banner">
+                    <div class="row flex-column align-items-center">
+                        <div class="holiday col-11 col-md-8 col-xl-8 flex-column">
+                            <h4 class="title1">Share your Holiday dreams</h4>
+                            <span class="title2">And find the perfect partn to fullfill it</span>
+                        </div>
+                        <div class="holiday col-10 col-md-6 col-xl-10 d-flex justify-content-center flex-row">
+                            <a href="#" class="holiday-link ">Find your holiday partner</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 align-items-center">
+                        <h3 class="title-photo">Meet a partner for your best holiday</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-5 col-xl-3">
+                        <div class="photo ">
+                            <div class="photo-content i1">
+                                <img class="image-photo" src="images/photo1.png" alt="">
+                            </div>
+                            <h4 class="photo-name">Bradley Hunter</h4>
+                            <p class="photo-info">Based in Chicago. I love playing tennis and loud music.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-3">
+                        <div class="photo">
+                            <div class="photo-content i2">
+                                <img class="image-photo" src="images/photo2.png" alt="">
+                            </div>
+                            <h4 class="photo-name">Lucas Marsha</h4>
+                            <p class="photo-info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-3">
+                        <div class="photo">
+                            <div class="photo-content i3">
+                                <img class="image-photo" src="images/photo3.png" alt="">
+                            </div>
+                            <h4 class="photo-name">Heather Walker</h4>
+                            <p class="photo-info">I am happy person that loves cats and climbing on mountains.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-3">
+                        <div class="photo">
+                            <div class="photo-content i4">
+                                <img class="image-photo" src="images/photo4.png" alt="">
+                            </div>
+                            <h4 class="photo-name">Bradlay Hunter</h4>
+                            <p class="photo-info">Based in Chicago. I love playing tennis and loud music.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-cont">
+                <button class="next-button">See other partners</button>
+            </div>
         </main>
     </div>
 </body>
+
 </html>
